@@ -1,0 +1,19 @@
+intents:
+- greet
+- goodbye
+- news
+entities:
+  - news_keyword
+
+
+slots:
+  news_keyword:
+    type: text
+
+templates:
+  utter_greet:
+  - text: Hey ! How are you.
+
+actions:
+- utter_greet
+- action_news
