@@ -1,6 +1,5 @@
 intents:
 - greet
-- goodbye
 - news
 entities:
   - news_keyword

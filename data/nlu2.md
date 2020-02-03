@@ -22,3 +22,7 @@
 - i hope you are doing great
 - hey bot how are you
 - hello how are you
+
+## intent:wheather
+- what is the [wheather](wheather_keyword)
+- tell me the [wheather](wheather_keyword)

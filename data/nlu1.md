@@ -22,3 +22,7 @@
 - i hope you are doing great
 - hey bot how are you
 - hello how are you
+
+## intent:news
+- what is the [news](news_keyword)
+- tell me the [news](news_keyword)
