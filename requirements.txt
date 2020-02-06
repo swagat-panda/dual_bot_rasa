@@ -1,0 +1,15 @@
+falcon
+requests
+gunicorn
+nltk
+falcon-auth
+falcon-cors
+pyyaml
+sklearn
+numpy
+sklearn_crfsuite
+rasa_nlu==0.15.0
+rasa_core==0.14.4
+rasa_core_sdk==0.14.0
+pymongo
+ruamel.yaml
