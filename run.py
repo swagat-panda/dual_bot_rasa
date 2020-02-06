@@ -12,8 +12,7 @@ import rasa_core
 from rasa_core.agent import Agent
 from rasa_core.interpreter import RasaNLUInterpreter
 from rasa_core.utils import EndpointConfig
-from rasa_core.run import serve_application
-from rasa_core.channels.channel import InputChannel
+
 import json
 from rasa_core.tracker_store import MongoTrackerStore
 
@@ -23,7 +22,7 @@ import ruamel.yaml as yaml
 warnings.simplefilter('ignore', yaml.error.UnsafeLoaderWarning)
 logger = logging.getLogger(__name__)
 
-mongo_url = "mongodb://192.168.1.7:27017"
+mongo_url = "PLEASE ENTER THE HOST URL OF MONGO DB EXAMPLE-mongodb://localhost:27017"
 
 # loading the agent1
 domain_file1 = "domain1.yml"
