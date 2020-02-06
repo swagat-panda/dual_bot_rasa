@@ -1,0 +1,23 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- action_news
+config:
+  store_entities_as_slots: true
+entities:
+- news_keyword
+forms: []
+intents:
+- greet:
+    use_entities: true
+- news:
+    use_entities: true
+slots:
+  news_keyword:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_greet:
+  - text: Hey ! How are you.

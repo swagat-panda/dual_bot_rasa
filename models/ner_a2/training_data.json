@@ -1,0 +1,125 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hey are you there"
+      },
+      {
+        "intent": "greet",
+        "text": "hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "hi bot are you there"
+      },
+      {
+        "intent": "greet",
+        "text": "hii"
+      },
+      {
+        "intent": "greet",
+        "text": "hellooo"
+      },
+      {
+        "intent": "greet",
+        "text": "hey how are you"
+      },
+      {
+        "intent": "greet",
+        "text": "hey i hope you are doing good"
+      },
+      {
+        "intent": "greet",
+        "text": "hi bot"
+      },
+      {
+        "intent": "greet",
+        "text": "hey dude"
+      },
+      {
+        "intent": "greet",
+        "text": "hello bot"
+      },
+      {
+        "intent": "greet",
+        "text": "hi wassup"
+      },
+      {
+        "intent": "greet",
+        "text": "hi whatsup"
+      },
+      {
+        "intent": "greet",
+        "text": "hey wassup"
+      },
+      {
+        "intent": "greet",
+        "text": "hey whatsup"
+      },
+      {
+        "intent": "greet",
+        "text": "i hope you are doing great"
+      },
+      {
+        "intent": "greet",
+        "text": "hey bot how are you"
+      },
+      {
+        "intent": "greet",
+        "text": "hello how are you"
+      },
+      {
+        "intent": "wheather",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "wheather",
+            "entity": "wheather_keyword"
+          }
+        ],
+        "text": "what is the wheather"
+      },
+      {
+        "intent": "wheather",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "wheather",
+            "entity": "wheather_keyword"
+          }
+        ],
+        "text": "tell me the wheather"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "weather": [
+        "weather",
+        "sunny",
+        "rainy",
+        "cloudy",
+        "climate",
+        "wind",
+        "rain"
+    ],
+    "news": [
+        "news",
+        "information",
+        "report",
+        "gossip"
+    ],
+    "joke": [
+        "joke"
+    ]
+}

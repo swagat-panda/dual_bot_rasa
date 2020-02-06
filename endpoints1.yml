@@ -11,4 +11,10 @@
 # https://rasa.com/docs/rasa/core/actions/#custom-actions/
 
 action_endpoint:
- url: "http://localhost:5055/webhook"
+ url: "http://localhost:5056/webhook"
+
+
+tracker_store:
+    type: mongod
+    url: mongodb://192.168.1.7:27017
+    db: agent_1
