@@ -13,3 +13,4 @@ rasa_core==0.14.4
 rasa_core_sdk==0.14.0
 pymongo
 ruamel.yaml
+tornado

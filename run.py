@@ -22,8 +22,8 @@ import ruamel.yaml as yaml
 warnings.simplefilter('ignore', yaml.error.UnsafeLoaderWarning)
 logger = logging.getLogger(__name__)
 
-mongo_url = "PLEASE ENTER THE HOST URL OF MONGO DB EXAMPLE-mongodb://localhost:27017"
-
+# mongo_url = "PLEASE ENTER THE HOST URL OF MONGO DB EXAMPLE-mongodb://localhost:27017"
+mongo_url="mongodb://localhost:27017"
 # loading the agent1
 domain_file1 = "domain1.yml"
 interpreter1 = RasaNLUInterpreter('./models/ner_a1')
@@ -35,7 +35,7 @@ agent_1 = Agent.load("./models/dialogue_agent_1", interpreter=interpreter1, trac
 # loading the agent2
 domain_file2 = "domain2.yml"
 interpreter2 = RasaNLUInterpreter('./models/ner_a2')
-action_endpoint2 = EndpointConfig(url="http://localhost:5056/webhook", serve_forever=True)
+action_endpoint2 = EndpointConfig(url="http://localhost:5055/webhook", serve_forever=True)
 mongo_tracker2 = MongoTrackerStore(domain=domain_file2, host=mongo_url, db="agent_2")
 agent_2 = Agent.load("./models/dialogue_agent_2", interpreter=interpreter2, tracker_store=mongo_tracker2,
                      action_endpoint=action_endpoint2)

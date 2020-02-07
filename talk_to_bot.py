@@ -2,7 +2,8 @@ import uuid
 import requests
 import json
 
-url = "PLEASE ENTER THE URL WHERE THE BOT IS RUNNING http://localhost:5005/rasa_bot"
+# url = "PLEASE ENTER THE URL WHERE THE BOT IS RUNNING http://localhost:5005/rasa_bot"
+url="http://localhost:5005/rasa_bot"
 sender_id = uuid.uuid4().hex
 
 

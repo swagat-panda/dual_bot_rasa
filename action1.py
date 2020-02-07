@@ -18,4 +18,15 @@ class News(Action):
     def run(
             self, dispatcher, tracker: Tracker, domain: Dict[Text, Any]
     ) -> List[Dict[Text, Any]]:
+        print(json.dumps(tracker.slots,indent=4))
         dispatcher.utter_message("we got a hit in news api")
+
+
+class Wheather(Action):
+    def name(self) -> Text:
+        return "action_wheather"
+    def run(
+        self, dispatcher, tracker: Tracker, domain: Dict[Text, Any]
+    ) -> List[Dict[Text, Any]]:
+        print(json.dumps(tracker.slots, indent=4))
+        dispatcher.utter_message("got a hit in Wheather api ")
